@@ -1,0 +1,23 @@
+{
+  "name": "greasy-spoon",
+  "version": "1.0.0",
+  "description": "greasy-spoon app",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Mahmoud Abdelrahman",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.6",
+    "sass": "^1.38.1"
+  },
+  "dependencies": {
+    "core-js": "^3.16.3",
+    "parcel": "^2.0.0-beta.1",
+    "q": "^1.5.1",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
